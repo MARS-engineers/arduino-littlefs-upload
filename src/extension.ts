@@ -465,7 +465,6 @@ async function doOperation(context: vscode.ExtensionContext, arduinoContext: Ard
 
     let conversion = false;
     if (pico) {
-        if (Number(arduinoContext.boardDetails?.buildProperties['version'].split('.')[0]) > 3) {
             if (rp2350) {
                 // Pico 4.x needs a preparation stage for the RP2350
                 writeEmitter.fire(bold("\r\n4.0 or above\r\n"));
@@ -479,9 +478,7 @@ async function doOperation(context: vscode.ExtensionContext, arduinoContext: Ard
                 }
                 conversion = true;
             }
-        } else {
-            writeEmitter.fire(bold("\r\n3.x, no UF2 conversion\r\n"));
-        }
+        
     }
 
     // Upload stage differs per core
