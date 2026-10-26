@@ -44,7 +44,7 @@ Make sure that you close any open `Serial Monitor` windows.
 
 ## Installation
 
-Copy the [VSIX file](https://github.com/MARS-engineers/arduino-littlefs-uploadreleases) to `~/.arduinoIDE/plugins/` on Mac and Linux or `C:\Users\<username>\.arduinoIDE\plugins\` on Windows (you may need to make this directory yourself beforehand). Restart the IDE.
+Copy the [VSIX file](https://github.com/MARS-engineers/arduino-littlefs-upload/releases) to `~/.arduinoIDE/plugins/` on Mac and Linux or `C:\Users\<username>\.arduinoIDE\plugins\` on Windows (you may need to make this directory yourself beforehand). Restart the IDE.
 
 
 ## Arduino Nano ESP32 Notes
