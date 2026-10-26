@@ -6,7 +6,7 @@ MIT licensed, see LICENSE.md
 LittleFS uploader and builder compatible with Arduino IDE 2.2.1 or higher. For use with the [Raspberry Pi Pico RP2040 Arduino core `arduino-pico`](https://github.com/earlephilhower/arduino-pico), the community [ESP8266 Arduino core](https://github.com/esp8266/Arduino) and the community [ESP32 Arduino core](https://github.com/espressif/arduino-esp32).
 
 ## Changes to original repo
-  - Remove check for core < 2.0 - it was causing problems with custom package
+  - Remove check for core < 3.0 - it was causing problems with custom package
   - Instalation guide uses links to this repo
 
 ## Usage, uploading a filesystem to the device
