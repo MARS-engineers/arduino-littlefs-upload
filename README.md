@@ -5,6 +5,10 @@ MIT licensed, see LICENSE.md
 
 LittleFS uploader and builder compatible with Arduino IDE 2.2.1 or higher. For use with the [Raspberry Pi Pico RP2040 Arduino core `arduino-pico`](https://github.com/earlephilhower/arduino-pico), the community [ESP8266 Arduino core](https://github.com/esp8266/Arduino) and the community [ESP32 Arduino core](https://github.com/espressif/arduino-esp32).
 
+## Changes to original repo
+  - Remove check for core < 2.0 - it was causing problems with custom package
+  - Instalation guide uses links to this repo
+
 ## Usage, uploading a filesystem to the device
 
 `[Ctrl]` + `[Shift]` + `[P]`, then "`Upload LittleFS to Pico/ESP8266/ESP32`".
@@ -40,7 +44,8 @@ Make sure that you close any open `Serial Monitor` windows.
 
 ## Installation
 
-Copy the [VSIX file](https://github.com/earlephilhower/arduino-littlefs-upload/releases) to `~/.arduinoIDE/plugins/` on Mac and Linux or `C:\Users\<username>\.arduinoIDE\plugins\` on Windows (you may need to make this directory yourself beforehand). Restart the IDE.
+Copy the [VSIX file](https://github.com/MARS-engineers/arduino-littlefs-uploadreleases) to `~/.arduinoIDE/plugins/` on Mac and Linux or `C:\Users\<username>\.arduinoIDE\plugins\` on Windows (you may need to make this directory yourself beforehand). Restart the IDE.
+
 
 ## Arduino Nano ESP32 Notes
 
